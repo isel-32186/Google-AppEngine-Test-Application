@@ -16,3 +16,7 @@
     1. Project -> Properties -> Java Compiler
         * Marcar "Enable project specific settings";
         * Indicar a versão adequada, superior ou igual à 1.5;
+
+### Para o caso de existirem erros HTTP código 500:
+* java.lang.VerifyError:
+    1.  Adicionar " -XX:-UseSplitVerifier" aos argumentos da máquina virtual;
